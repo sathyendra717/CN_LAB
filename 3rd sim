@@ -123,3 +123,4 @@ To get graph2(TCPReno) enter the commands :
 1. awk -f s3.awk cwnd2.tr > TCPReno
 
 Press enter , Plot the graph using xgraph:
+2. xgraph -x "Time (sec)" -y "Congestion Window Size" -t "Congestion Window graph for TCP2" TCPReno
